@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load dataset
-df = pd.read_csv("sales_data.csv")
+df = pd.read_csv("sales-data-insights-engine/sales_data.csv")
 
 # Create Revenue column
 df["Revenue"] = df["Units_Sold"] * df["Price"]
